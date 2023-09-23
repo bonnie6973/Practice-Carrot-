@@ -38,11 +38,16 @@ main {
   position: fixed;
   bottom: 150px;
   right: 20px;
-  background-color: #ff6e00;
+  background-color: var(--buttom-primary);
   padding: 12px 20px 12px 20px;
   border-radius: 23px;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.write-btn:hover {
+  background-color: var(--buttom-hover);
 }
 
 .item-list__info-meta {
