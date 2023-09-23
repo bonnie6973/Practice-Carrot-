@@ -2,3 +2,8 @@
 @import "style(19-body).css";
 @import "style(19-footer).css";
 @import "style(20-main).css";
+
+:root {
+  --buttom-primary: #ff6e00;
+  --buttom-hover: rgba(254, 111, 15, 0.5);
+}
